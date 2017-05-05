@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/attendance"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Enroll no"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aenroll" />
+
+    <TextView
+        android:text="Name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namea" />
+
+    <Button
+        android:text="Present"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/present"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:id="@+id/present"
+        android:onClick="present" />
+
+    <Button
+        android:text="Absent"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/absent"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:id="@+id/absent"
+        android:onClick="absent" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="Previous"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cse1"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/previous"
+        android:onClick="prev" />
+</LinearLayout>

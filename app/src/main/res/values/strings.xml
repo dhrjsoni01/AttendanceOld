@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="new_email">Email</string>
+    <string name="new_pass">Password (>6char)</string>
+    <string name="re_pass">Conform password</string>
+    <string name="roll">Enrollment no.</string>
+    <string name="branch">Select branch</string>
+    <string name="welcome">Welcome to JEC Attendance</string>
+    <string name="login">Login</string>
+    <string name="reg">Registration</string>
+    <string-array name="branch">
+        <item>Civil Engineering</item>
+        <item>Computer Science and Engineering</item>
+        <item>Electronics And Comuunication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Industrial Production And Engineering</item>
+        <item>Information Technology</item>
+        <item>Mechanical Engineering</item>
+    </string-array>
+    <string-array name="year">
+        <item>First year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Final year</item>
+    </string-array>
+    <string-array name="cs1">
+        <item>Mathematics - II</item>
+        <item>Chemistry</item>
+        <item>Data Structure - I</item>
+        <item>English</item>
+        <item>Engineering Graphics</item>
+        <item>Manufacturing Practices</item>
+        <item>Environmental Science</item>
+        <item>Communication</item>
+        <item>Extra 1</item>
+    </string-array>
+    <string-array name="cs2">
+        <item>(TOC) Theory of Computation</item>
+        <item>(DBMS) Database Management System</item>
+        <item>(ADA) Analysis and Design of Algorithm</item>
+        <item>(CSO) Computer System Organization</item>
+        <item>(NCQT) Numerical Computation and Queuing Theory</item>
+        <item>(OE) Open Elective</item>
+        <item>Extra - I</item>
+        <item>Extra - II</item>
+    </string-array>
+    <string-array name="cs3">
+        <item>Theory of Computation</item>
+        <item>Principal of Management and industrial organization</item>
+        <item>Artificail intelligence</item>
+        <item>Computer graphics and Multimedia</item>
+        <item>Wireless and Mobile computing</item>
+        <item>Professional activity</item>
+        <item>Artificail intelligence lab</item>
+        <item>Computer graphics and Multimedia lab</item>
+        <item>Wireless and Mobile computing lab</item>
+    </string-array>
+    <string-array name="cs4">
+        <item>Distributed System and Cloud Computing</item>
+        <item>Soft Computing</item>
+        <item>Network and Cyber Security</item>
+        <item>Elective-II</item>
+        <item>Major project</item>
+        <item>Distributed System and Cloud Computing lab</item>
+        <item>Soft Computing lab</item>
+        <item>Network and Cyber Security lab</item>
+        <item>extra</item>
+    </string-array>
+    <string-array name="it1">
+        <item>Mathematics - II</item>
+        <item>Physics</item>
+        <item>Data Structure - I</item>
+        <item>Fundamental of Electronics Engineering</item>
+        <item>Concept of Engineering Design</item>
+        <item>Manufacturing Practices</item>
+        <item>Environmental Science</item>
+        <item>Rural Outreach</item>
+        <item>Extra 1</item>
+    </string-array>
+    <string-array name="it2">
+        <item>subject 1 it2</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="it3">
+        <item>subject 1 it3</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="it4">
+        <item>subject 1 it4</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ce1">
+        <item>Mathematics - II</item>
+        <item>Chemistry</item>
+        <item>Introduction to Serveying</item>
+        <item>Engineering Graphics</item>
+        <item>English</item>
+        <item>Manufacturing Practices</item>
+        <item>Environmental Science</item>
+        <item>Communiacation</item>
+        <item>Extra 1</item>
+    </string-array>
+    <string-array name="ce2">
+        <item>subject 1 ce2</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ce3">
+        <item>subject 1 ce3</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ce4">
+        <item>subject 1 ce4</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ee1">
+        <item>Mathematics - II</item>
+        <item>Physics</item>
+        <item>Engineering Mechanics</item>
+        <item>Fundamental of Electronics Engineering</item>
+        <item>Concept of Engineering Design</item>
+        <item>Computer Programming</item>
+        <item>Environmental Science</item>
+        <item>Rural Outreach</item>
+        <item>Extra 1</item>
+    </string-array>
+    <string-array name="ee2">
+    <item>subject 1 ee2</item>
+    <item>subject 2</item>
+    <item>subject 3</item>
+    <item>subject 4</item>
+    <item>subject 5</item>
+    <item>subject 6</item>
+    <item>subject 7</item>
+    <item>subject 8</item>
+    <item>subject 9</item>
+</string-array>
+    <string-array name="ee3">
+    <item>subject 1 ee3</item>
+    <item>subject 2</item>
+    <item>subject 3</item>
+    <item>subject 4</item>
+    <item>subject 5</item>
+    <item>subject 6</item>
+    <item>subject 7</item>
+    <item>subject 8</item>
+    <item>subject 9</item>
+</string-array>
+    <string-array name="ee4">
+    <item>subject 1 ee4</item>
+    <item>subject 2</item>
+    <item>subject 3</item>
+    <item>subject 4</item>
+    <item>subject 5</item>
+    <item>subject 6</item>
+    <item>subject 7</item>
+    <item>subject 8</item>
+    <item>subject 9</item>
+</string-array>
+    <string-array name="me1">
+        <item>Mathematics - II</item>
+        <item>Chemistry</item>
+        <item>Fundmental of Electrical Engineering</item>
+        <item>English</item>
+        <item>Engineering Graphics</item>
+        <item>Manufacturing Practices</item>
+        <item>Environmental Science</item>
+        <item>Communication</item>
+        <item>Extra 1</item>
+</string-array>
+    <string-array name="me2">
+        <item>subject 1 me2</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="me3">
+        <item>subject 1 me3</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="me4">
+        <item>subject 1 me4</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ec1">
+        <item>Mathematics - II</item>
+        <item>Physics</item>
+        <item>Engineering Mechanics</item>
+        <item>Concept of Engineering Design</item>
+        <item>Electronics - I</item>
+        <item>Computer Programming</item>
+        <item>Environmental Science</item>
+        <item>Rural Outreach</item>
+        <item>Extra 1</item>
+    </string-array>
+    <string-array name="ec2">
+        <item>subject 1 ec2</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ec3">
+        <item>subject 1 ec3</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ec4">
+        <item>subject 1 ec4</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ip1">
+        <item>Mathematics - II</item>
+        <item>Physics</item>
+        <item>Engineering Mechanics</item>
+        <item>Fundamental of Electronics Engineering</item>
+        <item>Concept of Engineering Design</item>
+        <item>Computer Programming</item>
+        <item>Environmental Science</item>
+        <item>Rural Outreach</item>
+        <item>Extra 1</item>
+    </string-array>
+    <string-array name="ip2">
+        <item>subject 1 ip2</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ip3">
+        <item>subject 1 ip3</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+    <string-array name="ip4">
+        <item>subject 1 ip4</item>
+        <item>subject 2</item>
+        <item>subject 3</item>
+        <item>subject 4</item>
+        <item>subject 5</item>
+        <item>subject 6</item>
+        <item>subject 7</item>
+        <item>subject 8</item>
+        <item>subject 9</item>
+    </string-array>
+
+
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#352352">
+
+    <TextView
+        android:text="Please select subject for taking Attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textView3" />
+
+    <Spinner
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/spin_subject"
+        android:layout_marginRight="20dp"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:text="Start Attendance"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/startbtn"
+        android:background="@drawable/cse1"
+        android:onClick="start" />
+
+</LinearLayout>
